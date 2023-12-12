@@ -1,10 +1,10 @@
 import React from "react";
-import ContactHeader from "../components/contact/contactHeader";
+import NavBar from "../components/navBar/navBar"
 
 function contact() {
   return (
     <div>
-      <ContactHeader />
+      <NavBar />
     </div>
   );
 }

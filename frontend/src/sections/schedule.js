@@ -1,10 +1,10 @@
 import React from "react";
-import ScheduleHeader from "../components/schedule/scheduleHeader";
+import NavBar from "../components/navBar/navBar";
 
 function schedule() {
   return (
     <div>
-      <ScheduleHeader />
+      <NavBar />
     </div>
   );
 }

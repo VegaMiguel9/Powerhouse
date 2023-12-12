@@ -1,10 +1,10 @@
 import React from "react";
-import PlansHeader from "../components/plans/plansHeader";
+import NavBar from "../components/navBar/navBar";
 
 function plans() {
   return (
     <div>
-      <PlansHeader />
+      <NavBar />
     </div>
   );
 }

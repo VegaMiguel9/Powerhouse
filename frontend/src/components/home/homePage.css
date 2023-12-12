@@ -1,0 +1,53 @@
+.ourServices  {
+    background-color: #CAB08B;
+}
+
+.services {
+    font-size: 50px;
+    padding-top: 20px;
+    color: #FFFF;
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    flex: 1;
+    background-color: black;
+    color: #ffff;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin: 0 20px 20px 20px;
+}
+
+span {
+    font-style: italic;
+    color: #FFFF;  
+}
+
+
+.ourGymSection {
+    background-color: white;
+}
+
+.gymHeader {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    padding: 20px;
+}
+
+.ourGym {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+  
+.ourGymSection img {
+    margin: 0 20px 20px 20px ;
+  }

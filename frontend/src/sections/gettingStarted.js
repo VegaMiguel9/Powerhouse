@@ -1,10 +1,10 @@
 import React from "react";
-import GettingStartedHeader from "../components/gettingStarted/gettingStartedHeader";
+import NavBar from "../components/navBar/navBar"
 
 function gettingStarted() {
   return (
     <div>
-      <GettingStartedHeader />
+      <NavBar />
     </div>
   );
 }

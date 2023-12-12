@@ -1,10 +1,10 @@
 import React from "react";
-import OurGymHeader from "../components/ourGym/ourGymHeader";
+import NavBar from "../components/navBar/navBar";
 
 function ourGym() {
   return (
     <div>
-      <OurGymHeader />
+      <NavBar />
     </div>
   );
 }

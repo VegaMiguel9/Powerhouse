@@ -1,11 +1,11 @@
 import React from "react";
-import HomeHeader from "../components/home/homeHeader";
+import NavBar from "../components/navBar/navBar";
 import HomePage from "../components/home/homePage";
 
 function home() {
   return (
     <div>
-      <HomeHeader />
+      <NavBar/>
       <HomePage/>
     </div>
   );
