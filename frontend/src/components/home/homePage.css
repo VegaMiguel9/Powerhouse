@@ -1,3 +1,4 @@
+/* OUR SERVICES SECTION */
 .ourServices  {
     background-color: #CAB08B;
 }
@@ -11,7 +12,7 @@
 
 .group {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 
@@ -29,25 +30,48 @@ span {
     color: #FFFF;  
 }
 
-
+/* OUR GYM SECTION STARTS HERE */
 .ourGymSection {
     background-color: white;
+}
+
+h2 {
+    margin: 0;
 }
 
 .gymHeader {
     color: black;
     text-align: center;
     font-size: 50px;
-    margin: auto;
-    padding: 20px;
+    margin-top: 0px ;
+    padding: 20px 0;
 }
 
 .ourGym {
     display: flex;
-    flex-direction: row; 
-    justify-content: center;
+    flex-direction: column; 
 }
   
-.ourGymSection img {
-    margin: 0 20px 20px 20px ;
-  }
+.imageContainer {
+    flex: 1;
+    margin: 1% ;
+    padding: 0 2%;
+}
+
+ img {
+    width: 100%;
+}
+
+
+@media all and (min-width: 800px){
+.group {
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ourGym {
+    flex-direction: row;
+}
+.imageContainer{
+    padding: 0%;
+}
+}
