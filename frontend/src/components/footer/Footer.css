@@ -1,0 +1,20 @@
+footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5%;
+
+}
+
+.contactUs{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.footerInformation {
+    padding: 0 5% 0 5%;
+}
+

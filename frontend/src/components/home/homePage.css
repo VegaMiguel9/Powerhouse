@@ -80,7 +80,7 @@ h2 {
 
 
 
-@media all and (min-width: 800px){
+@media all and (min-width: 768px){
 .group {
     flex-direction: row;
     justify-content: space-around;
