@@ -4,8 +4,7 @@
 }
 
 .services {
-    /* font-size: 50px; */
-    padding-top: 20px;
+    padding: 1%;
     color: #FFFF;
     text-align: center;
 }
@@ -42,9 +41,8 @@ h2 {
 .gymHeader {
     color: black;
     text-align: center;
-    /* font-size: 50px; */
     margin-top: 0px ;
-    padding: 20px 0;
+    padding: 1%
 }
 
 .ourGym {

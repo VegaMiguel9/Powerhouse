@@ -55,7 +55,7 @@ function homePage(){
                     </div>
             </section>
             <section className="meetOurTeam">
-                <h2 style={{color: "white", textAlign: "center", padding: "5%" }}>MEET OUR TEAM</h2>
+                <h2 style={{color: "white", textAlign: "center", padding: "3%" }}>MEET OUR TEAM</h2>
                 <div className="meetOurTeamContainer">
                     <div className="teamImage">
                         <img src="https://static.wixstatic.com/media/7bd5ba_46ad70aeacdc4acfb15961cd9baef0b7~mv2.jpeg/v1/crop/x_115,y_427,w_3556,h_3567/fill/w_220,h_208,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5208165F-CEA9-40EA-9E4B-561EE3DA6032.jpeg" 
