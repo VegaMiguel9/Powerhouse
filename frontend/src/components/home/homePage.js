@@ -14,7 +14,6 @@ function homePage(){
                 loop
                 tabindex="-1"
                 autoplay
-                controls
                 style={{height: "100% ", width: "100%", objectFit: "cover", objectPosition: "center center", opacity: "1" }}
                 ></video>
             </section>

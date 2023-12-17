@@ -1,0 +1,12 @@
+.gettingStartedContainer {
+    background-color: white;
+}
+
+.gettingStartedContainer h1{
+    text-align: center;
+}
+
+.gettingStartedContainer p {
+    /* border: black 2px solid; */
+    padding: 0 5% 5% 5%;
+}

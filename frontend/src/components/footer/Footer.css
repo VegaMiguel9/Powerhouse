@@ -13,9 +13,8 @@ footer {
     padding-bottom: 1%;
 }
 
-.footerInformation, .footerMenu , .footerLogo {
+.footerInformation{
     display: flex;
-    border: white 2px solid;
 }
 
 .footerItem{
@@ -24,6 +23,43 @@ flex: 1;
 flex-direction: row;
 }
 
+
+.footerInformation > .footerItem  a {
+    color: white;
+    text-decoration: none;
+}
+
+.footerMenu  {
+    display: flex;
+    justify-content: center;
+}
+
+.footerMenu nav {
+    width: 100%;
+}
+
+.footerMenu nav ul{
+    padding: 0;
+    display: flex;
+    flex: 1;
+}
+
+.footerMenu li{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+
+}
+
+.footerMenu a {
+    text-decoration: none;
+}
+
+
+.footerLogo {
+   display: flex;
+   justify-content: center;
+}
 
 @media all and (min-width: 768px){
 
