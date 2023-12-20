@@ -10,9 +10,9 @@ function Footer(){
     return (
         <>
         <footer>
-            <div className="contactUs">
+            <div className="footer">
                 <div className="contactUsTitle">Contact Us</div>
-                <div className="footerInformation" > 
+                <div className="footerContainer" > 
                     <div className="footerItem"><Icon icon ={mail}/><a href="mailto:powerhousefitnessnc@gmail.com"> powerhousefitnessnc@gmail.com</a></div>
                     <div className="footerItem"><Icon icon={map}/> 1808 Anthony Rd <br/> Door 102 <br/> Burlington, NC 27215</div>
                     <div className="footerItem"><Icon icon={phone}/> <a href="tel:336-290-1380"> 336-290-1380</a></div>

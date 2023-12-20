@@ -8,12 +8,12 @@ function homePage(){
                 <video src="https://video.wixstatic.com/video/7bd5ba_23067a2f5b53433ab2e48eba10b20d9e/720p/mp4/file.mp4" 
                 role="presentation"
                 crossorigin="anonymous"
-                playsinline
+                playsInline
                 preload="auto"
                 muted
                 loop
-                tabindex="-1"
-                autoplay
+                tabIndex="-1"
+                autoPlay
                 style={{height: "100% ", width: "100%", objectFit: "cover", objectPosition: "center center", opacity: "1" }}
                 ></video>
             </section>

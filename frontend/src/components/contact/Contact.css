@@ -1,5 +1,11 @@
-.contactFormWrapper{
+.form {
+    padding: 3% 1%;
     background-color: white;
+    border-radius: 2%;
+    margin-bottom: 10%;
+}
+
+.contactFormWrapper{
     padding: 2%;
     margin: 5% 0;
 }
@@ -9,11 +15,16 @@
     text-align: center;
 }
 
-
+.contactForm {
+    display: flex;
+    flex-direction: column;
+}
 
 .contactForm label {
     color: black;
 }
+
+
 
 .contactForm .button {
     margin-top: 2%;
