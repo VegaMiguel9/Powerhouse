@@ -4,9 +4,10 @@
 }
 
 .services {
-    padding: 1%;
+    padding: 5%;
     color: #FFFF;
     text-align: center;
+    font-size: 2rem;
 }
 
 .group {
@@ -42,7 +43,8 @@ h2 {
     color: black;
     text-align: center;
     margin-top: 0px ;
-    padding: 1%
+    padding: 3%;
+    font-size: 2rem;
 }
 
 .ourGym {
@@ -51,42 +53,62 @@ h2 {
 }
   
 .imageContainer {
-    flex: 1;
     margin: 1% ;
     padding: 0 2%;
 }
 
- img {
+ .ourGymSection > .ourGym > .imageContainer > img {
     width: 100%;
+}
+
+/* MEET OUR TEAM SECTION */
+
+.meetOurTeam{
+    background-color: #2D2E2D;
+}
+
+.meetOurTeam > h2 {
+    color: white;
+    text-align: center;
+    padding: 5%;
+    font-size: 2rem;
 }
 
 .meetOurTeamContainer {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
 }
 
 .teamImage {
-    padding: 0 5%;
-    /* margin: 0 10%; */
+    align-items: center;
 }
 .teamImage img {
     border-radius: 50%;
-    flex: 1;
-    align-content: center;
 }
-
 
 
 
 @media all and (min-width: 768px){
-.group {
-    flex-direction: row;
-    justify-content: space-around;
-}
-.ourGym {
-    flex-direction: row;
-}
-.imageContainer{
-    padding: 0%;
-}
+    .group {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .ourGym {
+        flex-direction: row;
+    }
+    .imageContainer{
+        padding: 0%;
+        flex: 1;
+    }
+    .meetOurTeamContainer{
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .meetOurTeamContainer > .teamImage{
+        margin: 0 2%;
+    }
 }

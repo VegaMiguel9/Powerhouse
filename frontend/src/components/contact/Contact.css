@@ -2,7 +2,7 @@
     padding: 3% 1%;
     background-color: white;
     border-radius: 2%;
-    margin-bottom: 10%;
+    margin: 10% 0 ;
 }
 
 .contactFormWrapper{
@@ -20,10 +20,18 @@
     flex-direction: column;
 }
 
-.contactForm label {
+.contactForm > label {
     color: black;
+    font-size: 1.5rem;
 }
 
+.contactForm > input {
+    margin-bottom: 2%;
+}
+
+.contactForm > textarea {
+    margin-bottom: 2%;
+}
 
 
 .contactForm .button {
