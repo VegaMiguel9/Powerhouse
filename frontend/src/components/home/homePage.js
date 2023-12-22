@@ -1,7 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./homePage.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+function HomePage(){
 
-function homePage(){
+    useEffect(()=>{
+        AOS.init({duration: "1500"})
+    });
+
     return (
         <>
             <section style={{height:"684px", margin: "0px 10px"}}>
@@ -18,7 +24,7 @@ function homePage(){
                 ></video>
             </section>
             <section className="ourServices" >
-                    <h2 className="services" >OUR SERVICES</h2>
+                    <h2 className="services" data-aos="zoom-in">OUR SERVICES</h2>
                     <div className="group">
                         <div className="box">
                             <h3>Group Fitness</h3>
@@ -39,7 +45,7 @@ function homePage(){
                     </div>
             </section>
             <section className="ourGymSection">
-                    <h2 className="gymHeader">OUR GYM</h2>
+                    <h2 className="gymHeader" data-aos="zoom-in">OUR GYM</h2>
                     <div className="ourGym">
                         <div className="imageContainer">
                             <img src="/imgs/Crossfit.jpg"
@@ -54,7 +60,7 @@ function homePage(){
                     </div>
             </section>
             <section className="meetOurTeam">
-                <h2>MEET OUR TEAM</h2>
+                <h2 data-aos="zoom-in"> MEET OUR TEAM</h2>
                 <div className="meetOurTeamContainer">
                     <div className="teamImage">
                         <img src="https://static.wixstatic.com/media/7bd5ba_46ad70aeacdc4acfb15961cd9baef0b7~mv2.jpeg/v1/crop/x_115,y_427,w_3556,h_3567/fill/w_220,h_208,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5208165F-CEA9-40EA-9E4B-561EE3DA6032.jpeg" 
@@ -82,4 +88,4 @@ function homePage(){
     )
 };
 
-export default homePage
+export default HomePage;

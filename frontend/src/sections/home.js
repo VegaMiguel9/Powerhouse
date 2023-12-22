@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../components/navBar/navBar";
-import HomePage from "../components/home/homePage";
+import HomePage from "../components/home/HomePage";
 import Footer from "../components/footer/Footer";
 
 
