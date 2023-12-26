@@ -26,7 +26,7 @@ function NavBar() {
               <Link to="/">Home </Link>
               </li>
               <li>
-              <Link to="/gettingStarted">Getting Started</Link>
+              <Link to="/meetTheTeam">Meet The Team</Link>
               </li>
               <li>
               <Link to="/plans">Plans</Link>
@@ -61,7 +61,7 @@ function NavBar() {
               <Link to="/" onClick={handleToggle}>Home </Link>
               </li>
               <li>
-              <Link to="/gettingStarted" onClick={handleToggle}>Getting Started</Link>
+              <Link to="/meetTheTeam" onClick={handleToggle}>Meet The Team</Link>
               </li>
               <li>
               <Link to="/plans" onClick={handleToggle}>Plans</Link>

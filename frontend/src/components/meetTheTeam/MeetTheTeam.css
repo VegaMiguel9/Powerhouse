@@ -1,0 +1,16 @@
+.meetTheTeamLink {
+    color: white;
+}
+
+.meetTheTeamLink span {
+    font-style: normal;
+    color: #CAB08B;
+}
+
+.meetTheTeamLink p {
+    padding: 0;
+}
+
+.meetTheTeamLink img {
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.OurGymContainer{
+    padding: 3% 0%;
+}
+
+
+.OurGymContainer h2, p {
+    text-align: center;
+    padding: 1%;
+}
