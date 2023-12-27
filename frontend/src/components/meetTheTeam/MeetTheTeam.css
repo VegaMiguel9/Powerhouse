@@ -2,6 +2,15 @@
     color: white;
 }
 
+.meetTheTeamLink .ourMissionHeader {
+    text-align: center;
+    padding: 5% 0;
+}
+
+.meetTheTeamLink h2 {
+    font-size: 2rem;
+}
+
 .meetTheTeamLink span {
     font-style: normal;
     color: #CAB08B;
@@ -9,8 +18,16 @@
 
 .meetTheTeamLink p {
     padding: 0;
+    word-spacing: .2rem;
 }
 
 .meetTheTeamLink img {
     width: 100%;
+}
+.meetTheTeamLink .coachNameHeader {
+    text-align: left;
+}
+
+.meetTheTeamLink h3 {
+    margin: 0;
 }

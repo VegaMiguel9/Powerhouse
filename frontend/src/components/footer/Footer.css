@@ -37,6 +37,8 @@ padding-bottom: 2%;
 
 .footerMenu nav {
     height: 5vh;
+    flex: 1;
+    padding: 0 10%;
 }
 
 .footerMenu nav ul{
