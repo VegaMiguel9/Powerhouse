@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.scheduleBackground {
+    background-color: white;
+    /* display: flex;
+    flex-direction: row; */
+
+
+}
+
+.scheduleText {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.scheduleImg {
+   
+}
+
+.scheduleImg img {
+    width: 800px;
+}
+
+.scheduleImgTwo img {
+    width: 600px;
+}
+
+.scheduleOpener {
+    display: flex;
+}
+
+/* <---------- schedule ----------> */
+
+.scheduleList {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(61, 61, 61);
+}
+
+.listChild {
+    border-style: solid;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-color: white;
+    color: rgb(221, 221, 221);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.scheduleTitle {
+    background-color: rgb(61, 61, 61);
+    padding-bottom: 1%;
+    text-align: center;
+    color: rgb(221, 221, 221);
+    font-size: 200%
+}
