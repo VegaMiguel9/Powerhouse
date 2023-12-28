@@ -74,6 +74,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 1;
 }
 
 .menu-links a {
@@ -91,7 +92,7 @@ a:hover {
 }
 
 .menu-links.open {
-  max-height: 400px;
+  max-height: 450px;
 }
 
 .hamburger-icon.open span:first-child {

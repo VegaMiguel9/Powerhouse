@@ -6,8 +6,10 @@
 .OurGymContainer h2, p {
     text-align: center;
     padding: 1%;
+
 }
 
 .OurGymContainer h2 {
     font-size: 2rem;
+    color: #CAB08B;
 }

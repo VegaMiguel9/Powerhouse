@@ -2,7 +2,6 @@
     padding: 3% 1%;
     background-color: white;
     border-radius: 2%;
-    margin: 10% 0 ;
 }
 
 .contactFormWrapper{
@@ -49,3 +48,8 @@
 }
 
 
+@media (width >= 768px){
+    .form {
+        margin: 10%;
+    }
+}

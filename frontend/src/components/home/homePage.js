@@ -14,7 +14,6 @@ function HomePage() {
         <video
           src="https://video.wixstatic.com/video/7bd5ba_23067a2f5b53433ab2e48eba10b20d9e/720p/mp4/file.mp4"
           role="presentation"
-          crossorigin="anonymous"
           playsInline
           preload="auto"
           muted
@@ -112,6 +111,18 @@ function HomePage() {
             <h3 style={{ color: "white", textAlign: "center", padding: "2%" }}>
               Emanuel Martinez <br /> Coach & Personal Trainer
             </h3>
+          </div>
+        </div>
+      </section>
+      <section className="nutritionSection">
+        <h2 data-aos="zoom-in" className="nutritionHeader">NUTRITION</h2>
+        <div className="nutritionContainer">
+          <div className="nutritionItem">
+            <a href="https://saludysabornc.com/"><img src="https://static.wixstatic.com/media/fdb2a4_85341e9ef50f4894bd77160a717fbc7e~mv2.png/v1/fill/w_304,h_238,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/IMG_0526_PNG.png" alt="salud y sabor logo" /></a>
+          </div>
+          <div className="nutritionItem nutritionTextButton">
+            <div className="nutritionTextItem"><p >Salud y Sabor is our official meal prep partner</p></div>
+            <div className="nutritionTextItem"><a href="https://saludysabornc.com/" target="blank"><button>ORDER HEALTHY MEALS</button></a></div>
           </div>
         </div>
       </section>

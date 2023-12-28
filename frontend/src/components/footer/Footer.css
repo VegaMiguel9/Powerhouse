@@ -1,3 +1,7 @@
+footer {
+    padding-bottom: 5%;
+}
+
 .footer {
     margin: 2% 0;
     color: white;
@@ -8,7 +12,7 @@
     font-size: 2rem;
     display: flex;
     justify-content: center;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .footerContainer {
@@ -38,7 +42,6 @@ padding-bottom: 2%;
 .footerMenu nav {
     height: 5vh;
     flex: 1;
-    padding: 0 10%;
 }
 
 .footerMenu nav ul{
@@ -55,6 +58,7 @@ padding-bottom: 2%;
 
 .footerMenu a {
     text-decoration: none;
+    font-size: 14px;
 }
 
 
@@ -65,6 +69,25 @@ padding-bottom: 2%;
    margin-top: 5%;
 }
 
-@media all and (min-width: 768px){
+.socialMediaIcons {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
 
+.socialMediaIcons .copyright {
+    padding: 0 2%;
+}
+
+
+@media (min-width: 768px){
+    .footerMenu nav {
+        height: 5vh;
+        flex: 1;
+        padding: 0 20%;
+    }
+    .footerMenu a {
+        text-decoration: none;
+        font-size: 16px;
+    }
 }

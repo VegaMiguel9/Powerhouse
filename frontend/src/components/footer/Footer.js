@@ -5,6 +5,8 @@ import { Icon } from 'react-icons-kit'
 import {mail} from 'react-icons-kit/feather/mail'
 import {map} from 'react-icons-kit/feather/map'
 import {phone} from 'react-icons-kit/feather/phone'
+import {facebook} from 'react-icons-kit/feather/facebook'
+import {instagram} from 'react-icons-kit/feather/instagram'
 
 function Footer(){
     return (
@@ -25,7 +27,7 @@ function Footer(){
                         <Link to="/">Home </Link>
                         </li>
                         <li>
-                        <Link to="/meetTheTeam">Meet The Team</Link>
+                        <Link to="/meetTheTeam">Our Team</Link>
                         </li>
                         <li>
                         <Link to="/plans">Plans</Link>
@@ -42,8 +44,12 @@ function Footer(){
                     </ul>    
                 </nav>
             </div>
-            <div className="footerLogo"><img style={{ width: "170px", height: "48px" }} src="/imgs/Logo No Background.png"/></div>
-
+            <div className="footerLogo"><img style={{ width: "170px", height: "48px" }} src="/imgs/Logo No Background.png" alt="powerhouse logo"/></div>
+            <div className="socialMediaIcons">
+                <div><a href="https://www.facebook.com/powerhousefitnessnc"><Icon icon ={facebook}/></a></div>
+                <div className="copyright">© POWERHOUSE FITNESS</div>
+                <div><a href="https://www.instagram.com/powerhousefitnessnc/"><Icon icon = {instagram}/></a></div>
+            </div>
         </footer>
         </>
     )

@@ -31,3 +31,14 @@
 .meetTheTeamLink h3 {
     margin: 0;
 }
+
+@media (width >= 768px){
+    .coachImageContainer {
+        display: flex;
+        background-color: #2D2E2D;
+    }
+
+    .coachImageContainer .coachImageItem {
+        flex: 1;
+    }
+}
