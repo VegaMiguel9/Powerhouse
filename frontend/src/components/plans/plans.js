@@ -1,5 +1,6 @@
 import React from "react";
 import "./plans.css";
+import { Link } from "react-router-dom";
 
 function plans() {
   return (
@@ -88,12 +89,11 @@ function plans() {
       </div>
       {/* <---------- contact ----------> */}
       <div className="contactBox">
-        <div className="contactFlex">
-          {/* <img src="/imgs/weightlifting.jpg" alt="plans contact picture" /> */}
-        </div>
-        <div>
-          <h3>Don't know what to pick?</h3>
-          <button>Contact Us</button>
+        <div className="contactText">
+          <h1>Don't know what to pick?</h1>
+          <Link to="/contact">
+            <button>Contact Us</button>
+          </Link>
         </div>
       </div>
     </div>
