@@ -1,5 +1,6 @@
 .plansBackground {
     background-color: white;
+    padding-bottom:  5%;
  }
  
  
@@ -11,8 +12,6 @@
  
  
  .titleImage img {
-    height: 450px;
-    width: 1000px;
     border-style: solid;
     border-top: 0;
     border-bottom-left-radius: 4px;
@@ -39,14 +38,14 @@
  /* <---------- plans ----------> */
  
  
- .plansFlex {
+ /* .plansFlex {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     margin-right: 9%;
     margin-left: 9%;
     margin-bottom: 2%;
- }
+ } */
  
  
  .plansBox {
@@ -56,14 +55,13 @@
  
  
  .plansImgs {
-    width: 230px;
+    /* width: 230px; */
  }
  
  
  .plansImgs img{
     border-style: solid;
     border-radius: 4px;
-    height: 230px;
  }
  
  
@@ -86,22 +84,118 @@
  
  
  /* <---------- contact ----------> */
- .contactBox {
-    width: 500px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-direction: row;
- }
- 
- 
- /* .contactBox div{
-    display: flex;
-    flex-direction: row;
- } */
- 
- 
- .contactFlex {
-    display: flex;
-    flex-direction: row;
- }
- 
+.contactBox {
+   display: flex;
+   justify-content: center;
+}
+
+ .contactText {
+   text-align: center;
+}
+
+.contactText h1 {
+   font-size: 50px;
+}
+
+.contactText button {
+   font-size: 25px;
+   border-style: solid;
+   border-radius: 4px;
+   border-color: black;
+   padding: 10px;
+}
+
+/* <---------- usability ----------> */
+/* 
+.titleImage img {
+   height: 450px;
+   width: 1000px;
+   border-style: solid;
+   border-top: 0;
+   border-bottom-left-radius: 4px;
+   border-bottom-right-radius: 4px;
+} */
+
+@media (min-width: 1024px) {
+   .titleImage img {
+      width: 900px;
+   }
+
+   .plansImgs img{
+      height: 170px;
+   }
+
+   .plansFlex {
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      margin-right: 9%;
+      margin-left: 9%;
+      margin-bottom: 2%;
+   }
+
+   .plansImgs {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+   }
+}
+
+@media (max-width: 768px) {
+   .titleImage img {
+      width: 600px;
+   }
+
+   .plansImgs img{
+      height: 120px;
+   }
+
+   .plansText {
+      font-size: 15px;
+   }
+
+   .plansFlex {
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      margin-right: 9%;
+      margin-left: 9%;
+      margin-bottom: 2%;
+   }
+}
+
+@media (max-width: 425px) {
+   .titleImage img {
+      width: 380px;
+   }
+
+   .plansImgs {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+   }
+
+   .plansImgs img{
+      height: 200px;
+   }
+
+   .plansFlex {
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      margin-bottom: 2%;
+      flex-direction: column;
+   }
+
+   .plansTitle h3 {
+      width: 100%;
+   }
+   
+   .plansText {
+      font-size: 15px;
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
